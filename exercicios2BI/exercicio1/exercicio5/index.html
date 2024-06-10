@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Verificação de Idade</title>
+</head>
+<body>
+    <h1>Verificação de Idade</h1>
+    <div>
+        <label for="name1">Nome da primeira pessoa:</label>
+        <input type="text" id="name1">
+        <label for="year1">Ano de nascimento:</label>
+        <input type="number" id="year1" min="1900" max="2024">
+    </div>
+    <br>
+    <div>
+        <label for="name2">Nome da segunda pessoa:</label>
+        <input type="text" id="name2">
+        <label for="year2">Ano de nascimento:</label>
+        <input type="number" id="year2" min="1900" max="2024">
+    </div>
+    <br>
+    <div>
+        <label for="name3">Nome da terceira pessoa:</label>
+        <input type="text" id="name3">
+        <label for="year3">Ano de nascimento:</label>
+        <input type="number" id="year3" min="1900" max="2024">
+    </div>
+    <br>
+    <button onclick="calculateAges()">Calcular</button>
+
+    <div id="results" class="result"></div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
